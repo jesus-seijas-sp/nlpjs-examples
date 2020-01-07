@@ -1,0 +1,17 @@
+{
+  "pathPlugins": "./plugins",
+  "pathPipeline": "./pipelines.md",
+  "settings": {
+    "nlp": {
+      "autoLoad": true,
+      "autoSave": true,
+      "corpora": [
+        "../corpora/corpus-en.json"
+      ]
+    },
+    "consle": {
+      "debug": true
+    }
+  },
+  "use": ["Basic", "ConsoleConnector"]
+}
