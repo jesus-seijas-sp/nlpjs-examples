@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": [
+        "./corpus-en.json",
+        "./corpus-es.json"
+      ]
+    }
+  },
+  "childs": {
+    "bot1": {
+      "settings": {
+        "console": {
+          "debug": true
+        },
+        "use": ["ConsoleConnector"]
+      }
+    },
+    "bot2": {
+      "settings": {
+        "api-server": {
+          "port": 3000,
+          "serveBot": true
+        }
+      },
+      "use": ["ExpressApiServer", "DirectlineConnector"]
+    },
+    "bot3": {
+      "settings": {
+        "msbf": {
+          "apiPath": "",
+          "messagesPath": "/api/messages"
+        },
+        "api-server": {
+          "port": 4000,
+          "serveBot": false
+        }
+      },
+      "use": ["ExpressApiServer", "MsbfConnector"]
+    }
+  },
+  "use": ["Basic", "LangEs"]
+}
