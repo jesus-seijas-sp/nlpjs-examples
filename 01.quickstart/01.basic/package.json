@@ -1,5 +1,5 @@
 {
-  "name": "01.back-console-english",
+  "name": "01.basic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nlpjs/basic": "^4.0.0-rc.17",
-    "@nlpjs/lang-es": "^4.0.0-rc.17"
+    "@nlpjs/basic": "^4.0.1"
   }
 }

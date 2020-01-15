@@ -1,1 +1,0 @@
-require('@nlpjs/basic').dockStart();

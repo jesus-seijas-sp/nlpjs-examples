@@ -1,14 +1,15 @@
 {
-  "name": "01.back-console-english",
+  "name": "04.firstpipeline",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "@nlpjs/basic": "^4.0.0-rc.19"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@nlpjs/basic": "^4.0.0-rc.17"
-  }
+  "license": "ISC"
 }
