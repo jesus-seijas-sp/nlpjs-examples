@@ -10,5 +10,5 @@
       "debug": true
     }
   },
-  "use": ["Basic", "ConsoleConnector"]
+  "use": ["Basic", "LangEs", "ConsoleConnector"]
 }

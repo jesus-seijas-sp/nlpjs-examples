@@ -12,7 +12,11 @@
     "api-server": {
       "port": 3000,
       "serveBot": true
+    },
+    "msbf": {
+      "apiPath": "",
+      "messagesPath": "/api/messages"
     }
   },
-  "use": ["Basic", "LangEs", "ConsoleConnector", "ExpressApiServer", "DirectlineConnector"]
+  "use": ["Basic", "LangEs", "ConsoleConnector", "ExpressApiServer", "DirectlineConnector", "MsbfConnector"]
 }

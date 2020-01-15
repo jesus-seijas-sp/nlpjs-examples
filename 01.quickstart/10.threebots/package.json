@@ -1,5 +1,5 @@
 {
-  "name": "08.webchat",
+  "name": "10.threebots",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "@nlpjs/basic": "^4.0.1",
     "@nlpjs/directline-connector": "^4.0.1",
     "@nlpjs/express-api-server": "^4.0.1",
-    "@nlpjs/lang-es": "^4.0.1"
+    "@nlpjs/lang-es": "^4.0.1",
+    "@nlpjs/msbf-connector": "^4.0.1"
   }
 }
