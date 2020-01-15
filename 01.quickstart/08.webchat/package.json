@@ -1,0 +1,16 @@
+{
+  "name": "08.webchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.0.1",
+    "@nlpjs/directline-connector": "^4.0.1",
+    "@nlpjs/express-api-server": "^4.0.1"
+  }
+}
