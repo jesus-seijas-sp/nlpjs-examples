@@ -28,4 +28,3 @@ const { LangEn } = require('@nlpjs/lang-en-min');
   const response = await nlp.process('en', 'I should go now');
   console.log(response);
 })();
-
