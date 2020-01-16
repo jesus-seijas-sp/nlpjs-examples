@@ -1,0 +1,21 @@
+{
+  "name": "01.bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserdist": "browserify ./index.js | terser --compress --mangle > ./bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "terser": "^4.6.3"
+  },
+  "dependencies": {
+    "@nlpjs/core": "^4.0.1",
+    "@nlpjs/lang-en-min": "^4.0.1",
+    "@nlpjs/nlp": "^4.0.1"
+  }
+}
