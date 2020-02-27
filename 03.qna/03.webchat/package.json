@@ -1,0 +1,17 @@
+{
+  "name": "03.webchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.2.1",
+    "@nlpjs/directline-connector": "^4.1.4",
+    "@nlpjs/express-api-server": "^4.2.0",
+    "@nlpjs/qna-importer": "^4.2.1"
+  }
+}

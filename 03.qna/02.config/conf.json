@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": [
+        { "filename": "qna.tsv", "importer": "qna", "locale": "en" }
+      ]
+    }
+  },
+  "use": ["Basic", "Qna"]
+}

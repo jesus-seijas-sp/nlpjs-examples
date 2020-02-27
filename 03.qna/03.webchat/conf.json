@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": [
+        { "filename": "qna.tsv", "importer": "qna", "locale": "en" }
+      ]
+    },
+    "console": {
+      "debug": true
+    },
+    "api-server": {
+      "port": 3000,
+      "serveBot": true
+    }
+  },
+  "use": ["Basic", "Qna", "ExpressApiServer", "DirectlineConnector"]
+}
