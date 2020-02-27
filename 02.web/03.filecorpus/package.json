@@ -14,9 +14,9 @@
     "terser": "^4.6.3"
   },
   "dependencies": {
-    "@nlpjs/core": "^4.0.1",
-    "@nlpjs/lang-en-min": "^4.0.1",
-    "@nlpjs/nlp": "^4.0.1",
-    "@nlpjs/request-rn": "^4.0.0-rc.12"
+    "@nlpjs/core": "^4.1.4",
+    "@nlpjs/lang-en-min": "^4.1.4",
+    "@nlpjs/nlp": "^4.2.0",
+    "@nlpjs/request-rn": "^4.1.0"
   }
 }

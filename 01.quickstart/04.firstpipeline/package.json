@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@nlpjs/basic": "^4.0.0-rc.19"
+    "@nlpjs/basic": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {

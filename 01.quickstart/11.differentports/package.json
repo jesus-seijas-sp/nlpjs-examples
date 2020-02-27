@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nlpjs/basic": "^4.0.1",
-    "@nlpjs/directline-connector": "^4.0.1",
-    "@nlpjs/express-api-server": "^4.0.1",
-    "@nlpjs/lang-es": "^4.0.1",
-    "@nlpjs/msbf-connector": "^4.0.1"
+    "@nlpjs/basic": "^4.2.0",
+    "@nlpjs/directline-connector": "^4.1.4",
+    "@nlpjs/express-api-server": "^4.2.0",
+    "@nlpjs/lang-es": "^4.1.4",
+    "@nlpjs/msbf-connector": "^4.1.4"
   }
 }
