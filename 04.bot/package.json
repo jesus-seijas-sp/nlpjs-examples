@@ -1,0 +1,18 @@
+{
+  "name": "04.bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@nlpjs/basic": "^4.15.0",
+    "@nlpjs/bot": "^4.15.1",
+    "@nlpjs/directline-connector": "^4.15.0",
+    "@nlpjs/express-api-server": "^4.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

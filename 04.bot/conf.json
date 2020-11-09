@@ -1,20 +1,15 @@
 {
   "settings": {
     "nlp": {
-      "threshold": 0.5,
-      "autoLoad": false,
-      "autoSave": false,
-      "corpora": [
-        "./corpus-en.json"
-      ]
-    },
-    "bot": {
-      "scripts": ["./script.dlg"]
+      "corpora": ["./corpus-en.json"]
     },
     "api-server": {
       "port": 3000,
       "serveBot": true
+    },
+    "bot": {
+      "scripts": ["./script.dlg"]
     }
   },
-  "use": ["Basic", "LangEn", "ConsoleConnector", "ExpressApiServer", "DirectlineConnector", "Bot"]
+  "use": ["Basic", "LangEn", "ExpressApiServer", "DirectlineConnector", "Bot"]
 }

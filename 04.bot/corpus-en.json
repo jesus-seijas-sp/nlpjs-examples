@@ -12,15 +12,6 @@
       ]
     },
     {
-      "intent": "doit",
-      "utterances": [
-        "do it",
-        "please do it",
-        "doit"
-      ],
-      "answers": ["/doit"]
-    },
-    {
       "intent": "agent.whereami",
       "utterances": [
         "where am i",
@@ -694,8 +685,7 @@
         "howdy"
       ],
       "answers": [
-        "Hey there!",
-        "Greetings!"
+        "/hellodialog"
       ]
     },
     {
