@@ -1,18 +1,16 @@
+# Script for a simple turn conversation
+import corpus.dlg
 dialog main
   nlp
 dialog hellodialog
-  run greet
-  run help
+  [!user_name] run greet
   run bye
 dialog greet
-  run ask name
+  say Hello user!
+  say Tell me your name
+  ask user_name
   call uppers user_name
-  say Hello {{ user_name }}
-dialog help
-  say This is the help
-  say This is the second help
+  [user_name !== 'ADMIN'] say Hello {{ user_name }}
+  [user_name === 'ADMIN'] say You unblocked admin mode
 dialog bye
   say Bye user
-dialog ask name
-  say What's your name?
-  ask user name

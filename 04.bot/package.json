@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@nlpjs/basic": "^4.15.0",
-    "@nlpjs/bot": "^4.15.1",
-    "@nlpjs/directline-connector": "^4.15.0",
+    "@nlpjs/basic": "^4.16.0",
+    "@nlpjs/bot": "^4.16.0",
+    "@nlpjs/core-loader": "^4.15.0",
+    "@nlpjs/directline-connector": "^4.16.0",
     "@nlpjs/express-api-server": "^4.15.0"
   },
   "devDependencies": {},

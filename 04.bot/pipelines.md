@@ -1,4 +1,0 @@
-# default
-
-## main
-bot.start
